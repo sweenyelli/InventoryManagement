@@ -1,0 +1,462 @@
+{
+  "Items": [
+    {
+      "$type": "standard",
+      "Sku": "PRD-001",
+      "Name": "Instant Noodles (5-pack)",
+      "Category": "Food/Grocery",
+      "SupplierId": "SUP-002",
+      "ShelfCapacity": 24,
+      "ShelfQty": 24,
+      "BackOfficeQty": 100,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 124
+    },
+    {
+      "$type": "standard",
+      "Sku": "PRD-002",
+      "Name": "Canned Sardines (155g)",
+      "Category": "Canned Goods",
+      "SupplierId": "SUP-001",
+      "ShelfCapacity": 30,
+      "ShelfQty": 20,
+      "BackOfficeQty": 60,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 80
+    },
+    {
+      "$type": "standard",
+      "Sku": "PRD-003",
+      "Name": "3-in-1 Coffee Mix (10-sachet bundle)",
+      "Category": "Beverages",
+      "SupplierId": "SUP-002",
+      "ShelfCapacity": 24,
+      "ShelfQty": 18,
+      "BackOfficeQty": 80,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 98
+    },
+    {
+      "$type": "standard",
+      "Sku": "PRD-004",
+      "Name": "Cooking Oil (500ml pouch)",
+      "Category": "Cooking Essentials",
+      "SupplierId": "SUP-003",
+      "ShelfCapacity": 20,
+      "ShelfQty": 12,
+      "BackOfficeQty": 40,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 52
+    },
+    {
+      "$type": "standard",
+      "Sku": "PRD-005",
+      "Name": "Laundry Detergent Powder (twin-pack)",
+      "Category": "Household",
+      "SupplierId": "SUP-003",
+      "ShelfCapacity": 20,
+      "ShelfQty": 14,
+      "BackOfficeQty": 40,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 54
+    },
+    {
+      "$type": "standard",
+      "Sku": "PRD-006",
+      "Name": "Purified Bottled Water (500ml)",
+      "Category": "Beverages",
+      "SupplierId": "SUP-001",
+      "ShelfCapacity": 36,
+      "ShelfQty": 30,
+      "BackOfficeQty": 120,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 150
+    },
+    {
+      "$type": "perishable",
+      "ShelfLifeDays": 180,
+      "Sku": "PRD-007",
+      "Name": "Evaporated Milk (300ml can)",
+      "Category": "Canned Goods",
+      "SupplierId": "SUP-001",
+      "ShelfCapacity": 24,
+      "ShelfQty": 12,
+      "BackOfficeQty": 30,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 42
+    },
+    {
+      "$type": "perishable",
+      "ShelfLifeDays": 90,
+      "Sku": "PRD-008",
+      "Name": "Biscuits (10-pack)",
+      "Category": "Snacks",
+      "SupplierId": "SUP-002",
+      "ShelfCapacity": 24,
+      "ShelfQty": 16,
+      "BackOfficeQty": 30,
+      "TemporaryReorderPoint": 10,
+      "TotalStock": 46
+    }
+  ],
+  "Suppliers": [
+    {
+      "Id": "SUP-001",
+      "Name": "FreshMart Supplies",
+      "Contact": "freshmart@example.com",
+      "LeadTimeDays": 2
+    },
+    {
+      "Id": "SUP-002",
+      "Name": "City Wholesale",
+      "Contact": "citywholesale@example.com",
+      "LeadTimeDays": 3
+    },
+    {
+      "Id": "SUP-003",
+      "Name": "Regional Distributors",
+      "Contact": "regional@example.com",
+      "LeadTimeDays": 5
+    }
+  ],
+  "Orders": [],
+  "Movements": [
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-22T23:24:37.1546445-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-21T23:24:37.1547931-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-20T23:24:37.1547937-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-19T23:24:37.1547941-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-18T23:24:37.1547944-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-17T23:24:37.1547959-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-001",
+      "Date": "2026-10-16T23:24:37.1547963-06:00",
+      "Quantity": 6,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-22T23:24:37.154798-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-21T23:24:37.1547984-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-20T23:24:37.1547989-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-19T23:24:37.1547993-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-18T23:24:37.1547997-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-17T23:24:37.1548-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-002",
+      "Date": "2026-10-16T23:24:37.1548004-06:00",
+      "Quantity": 3,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-22T23:24:37.1548018-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-21T23:24:37.1548022-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-20T23:24:37.1548025-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-19T23:24:37.1548033-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-18T23:24:37.1548037-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-17T23:24:37.154804-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-003",
+      "Date": "2026-10-16T23:24:37.1548044-06:00",
+      "Quantity": 5,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-22T23:24:37.1548049-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-21T23:24:37.1548053-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-20T23:24:37.1548056-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-19T23:24:37.154806-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-18T23:24:37.1548064-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-17T23:24:37.1548067-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-004",
+      "Date": "2026-10-16T23:24:37.1548071-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-22T23:24:37.1548076-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-21T23:24:37.154808-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-20T23:24:37.1548084-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-19T23:24:37.1548087-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-18T23:24:37.1548091-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-17T23:24:37.1548095-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-005",
+      "Date": "2026-10-16T23:24:37.1548099-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-22T23:24:37.1548104-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-21T23:24:37.1548108-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-20T23:24:37.1548111-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-19T23:24:37.1548115-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-18T23:24:37.1548119-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-17T23:24:37.1548122-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-006",
+      "Date": "2026-10-16T23:24:37.1548126-06:00",
+      "Quantity": 4,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-22T23:24:37.154813-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-21T23:24:37.1548134-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-20T23:24:37.1548138-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-19T23:24:37.1548141-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-18T23:24:37.1548145-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-17T23:24:37.1548148-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-007",
+      "Date": "2026-10-16T23:24:37.1548152-06:00",
+      "Quantity": 2,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-22T23:24:37.1548156-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-21T23:24:37.154816-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-20T23:24:37.1548163-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-19T23:24:37.1548167-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-18T23:24:37.1548171-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-17T23:24:37.1548174-06:00",
+      "Quantity": 1,
+      "Type": 0
+    },
+    {
+      "Sku": "PRD-008",
+      "Date": "2026-10-16T23:24:37.1548178-06:00",
+      "Quantity": 1,
+      "Type": 0
+    }
+  ],
+  "NextOrderId": 1
+}
